@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "男衣库2017冬季韩版棉服外套青年连帽宽松棉衣男式冬装休闲棉衣",
+    "image": "./Content/images/img1.jpg",
+    "price": 561,
+    "count": 4,
+    "spec": "24.8kg",
+    "isCheck": true
+  },
+  {
+    "id": 2,
+    "title": "FILA斐乐男运动休闲针织衫2017冬季新款LOGO亲肤运动套头衫卫衣",
+    "image": "./Content/images/img2.jpg",
+    "price": 680,
+    "count": 4,
+    "spec": "175/96A(L)",
+    "isCheck": false
+  },
+  {
+    "id": 3,
+    "title": "PUMA彪马官方 男女同款麂皮休闲鞋 SUEDE Classic 363869",
+    "image": "./Content/images/img3.jpg",
+    "price": 699,
+    "count": 2,
+    "spec": "桦木色",
+    "isCheck": false
+  }
+]

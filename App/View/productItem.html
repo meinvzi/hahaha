@@ -1,0 +1,35 @@
+<ul class="mt15">
+
+    <li class=" clearfix pt15 pb15" style="position: relative;">
+        <div style="position: absolute;top: 10px;right: 10px" ng-click="deleteItem()">
+            <span class="fa fa-close"></span>
+        </div>
+        <div class="col-xs-1 pl0">
+            <input type="checkbox" id="{{product.id}}" name="" ng-model="product.isCheck" ng-click="checkItem()">
+        </div>
+        <div class="col-xs-11  row clearfix">
+            <dt class="col-xs-4 pl0 pr0">
+                <label for="{{product.id}}">
+                    <img class="img-thumbnail" ng-src="{{product.image}}" alt="">
+                </label>
+            </dt>
+            <dd class="col-xs-8">
+                <h4 class="text-nobr">{{product.title}}</h4>
+
+                <div>单价：<span>{{product.price | currency:"RMB "}}</span></div>
+                <div>
+                        <span class="float-right list-inline">
+                            <span class="p5 bd1" ng-click="caculate('-')">
+                                <i class="fa fa-minus"></i>
+                            </span>
+                            <span class="mlr10">{{product.count}}</span>
+                            <span class="p5 bd1" ng-click="caculate('+')">
+                                <i class="fa fa-plus"></i>
+                            </span>
+                        </span>
+                    数量：{{product.count|number}}
+                </div>
+            </dd>
+        </div>
+    </li>
+</ul>
